@@ -100,6 +100,11 @@ The `O(k/n)`  is an average cost for redistribution of keys and the O(log(n)) co
 
 In Java it is easier to use `TreeMap`; which is implemented with red-black-tree - a self-balancing binary search tree, that guaranteed `log(n)` time cost for the `containsKey`, `get`, `put` and `remove` operations.
 
+## References
+1. https://en.wikipedia.org/wiki/Consistent_hashing 
+2. https://www.codeproject.com/Articles/56138/Consistent-hashing
+3. https://github.com/Jaskey/ConsistentHash/blob/master/src/com/github/jaskey/consistenthash/ConsistentHashRouter.java
+
 
 # Development guide
 1. Install pre-commit (https://pre-commit.com/)
