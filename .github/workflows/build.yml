@@ -40,7 +40,7 @@ jobs:
       - name: Copy build artifact
         run: mkdir artifacts && cp target/*.jar artifacts
       - name: Upload jar artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: $artifactId-java${{ matrix.Java }}
           path: artifacts/
